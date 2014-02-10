@@ -61,4 +61,5 @@ Brandslip::Application.configure do
 }
 
   APP_CONFIG['balanced_secret'] = 'ak-test-2wILo7Hn6HC0Wmt0xKtANF7heLNSP2YXj'
+  APP_CONFIG['balanced_marketplace'] = 'your-marketplace-uri'
 end

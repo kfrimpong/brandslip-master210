@@ -17,8 +17,9 @@
 
 
       <script type="text/javascript">
-    balanced.init('/v1/marketplaces/TEST-MP1y8mqAL3IIHgZ6u2lr9vS2');
-</script>
+      var secret = "<%=APP_CONFIG['balanced_marketplace'] %>";
+      var uri = "/v1/marketplaces/" + secret;
+      balanced.init(uri);</script>
 </head>
 <body class="">
   <%= javascript_tag do %>

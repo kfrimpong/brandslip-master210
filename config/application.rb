@@ -62,6 +62,7 @@ module Brandslip
     config.assets.version = '1.0'
 
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
     APP_CONFIG['balanced_secret'] = 'ak-test-2wILo7Hn6HC0Wmt0xKtANF7heLNSP2YXj'
   end
